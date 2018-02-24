@@ -103,7 +103,7 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval)
   totalRocks = document.getElementsByClassName('rock')
-  for (let i = 0; i < totalRocks; i++) {
+  for (let i = 0; i < totalRocks.length; i++) {
     totalRocks[i].remove()
     
   }
