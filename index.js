@@ -89,8 +89,9 @@ function createRock(x) {
 
     ROCKS.push(rock)
 
-    return rock
+    
   }
+  return rock
 }
 
 /**
